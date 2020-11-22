@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=YATKA
+Comment=Yet Another Tetris Klone in Action
+Exec=yatka
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=icon
+Categories=games;

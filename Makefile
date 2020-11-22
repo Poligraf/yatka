@@ -7,8 +7,8 @@ SRC = src/main.c src/data_persistence.c src/video.c src/sound.c \
 OBJ = $(SRC:.c=.o)
 DEP = $(SRC:.c=.d)
 CFLAGS = -g -Iinc
-LDFLAGS = $(shell pkg-config --libs sdl SDL_image SDL_ttf SDL_mixer)
-CC = gcc
+LDFLAGS = $(shell /opt/gcw0-toolchain/bin/pkg-config --libs sdl SDL_image SDL_ttf SDL_mixer)
+CC = /opt/gcw0-toolchain/bin/mipsel-linux-gcc
 
 all: $(PROJECT)
 
